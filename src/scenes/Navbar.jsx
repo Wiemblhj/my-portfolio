@@ -54,7 +54,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
             <div className="flex justify-between gap-16 font-opensans text-sm font-semibold">
             
             <div className="flex items-center">
-  <AiOutlineHome style={{ marginBottom: "2px" }} />
+
   <Link
     page="Home"
     selectedPage={selectedPage}
@@ -69,16 +69,13 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
                 selectedPage={selectedPage}
                 setSelectedPage={setSelectedPage}
               /></div><div className="flex items-center">
-              <AiOutlineFundProjectionScreen
-                  style={{ marginBottom: "2px" }}
-                />
+            
               <Link
                 page="Projects"
                 selectedPage={selectedPage}
                 setSelectedPage={setSelectedPage}
               /></div><div className="flex items-center">
-               <AiOutlineContacts style={{ marginBottom: "2px" }} />
-              <Link
+             
                 page="Contact"
                 selectedPage={selectedPage}
                 setSelectedPage={setSelectedPage}
