@@ -9,7 +9,7 @@ import {
   AiOutlineFundProjectionScreen,
   AiOutlineContacts
 } from "react-icons/ai";
-import { GiSkills } from "react-icons/gi"
+
 import { CgFileDocument } from "react-icons/cg";
 
 const Link = ({ page, selectedPage, setSelectedPage }) => {
