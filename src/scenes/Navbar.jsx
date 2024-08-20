@@ -63,7 +63,6 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
 </div>
 <div className="flex items-center">
 
-<GiSkills style={{ marginBottom: "2px" }} />
               <Link
                 page="Skills"
                 selectedPage={selectedPage}
