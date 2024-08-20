@@ -106,7 +106,7 @@ const Landing = ({ setSelectedPage }) => {
               </AnchorLink>
               <a
                 className="rounded-r-sm bg-gradient-rainblue py-0.5 pr-0.5"
-                href="/assets/file/CV-WiemBelhajBoubaker.pdf"
+                href="/assets/file/CV-Wiem Belhaj Boubaker.pdf"
                 download
               >
                 <div className="bg-deep-blue hover:text-red transition duration-500 w-full h-full flex items-center justify-center px-10 font-playfair">
