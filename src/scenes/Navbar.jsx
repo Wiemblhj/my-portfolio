@@ -7,9 +7,9 @@ import {
   // AiFillStar,
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
-  AiOutlineContacts
+  AiOutlineContacts,
 } from "react-icons/ai";
-
+import { GiSkills } from "react-icons/gi";
 import { CgFileDocument } from "react-icons/cg";
 
 const Link = ({ page, selectedPage, setSelectedPage }) => {
@@ -35,50 +35,54 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
   const [navColour, updateNavbar] = useState(false);
 
   return (
-    <nav  className={`${navbarBackground} z-40 w-full fixed top-0  py-2`}>
+    <nav className={`${navbarBackground} z-40 w-full fixed top-0  py-2`}>
       <motion.div
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, amount: 0.5 }}
         transition={{ duration: 1.5 }}
         variants={{
-          hidden: { opacity: 0},
-          visible: { opacity: 1},
+          hidden: { opacity: 0 },
+          visible: { opacity: 1 },
         }}
       >
-        <div className="flex items-center justify-between mx-auto w-5/6 h-5/6 pt-2px " >
-         <Logo />
+        <div className="flex items-center justify-between mx-auto w-5/6 h-5/6 pt-2px ">
+          <Logo />
 
           {/* DESKTOP NAV */}
           {isDesktop ? (
             <div className="flex justify-between gap-16 font-opensans text-sm font-semibold">
-            
-            <div className="flex items-center">
-
-  <Link
-    page="Home"
-    selectedPage={selectedPage}
-    setSelectedPage={setSelectedPage}
-  />
-</div>
-<div className="flex items-center">
-
-              <Link
-                page="Skills"
-                selectedPage={selectedPage}
-                setSelectedPage={setSelectedPage}
-              /></div><div className="flex items-center">
-            
-              <Link
-                page="Projects"
-                selectedPage={selectedPage}
-                setSelectedPage={setSelectedPage}
-              /></div><div className="flex items-center">
-             
-                page="Contact"
-                selectedPage={selectedPage}
-                setSelectedPage={setSelectedPage}
-              />
+              <div className="flex items-center">
+                
+                <Link
+                  page="Home"
+                  selectedPage={selectedPage}
+                  setSelectedPage={setSelectedPage}
+                />
+              </div>
+              <div className="flex items-center">
+              
+                <Link
+                  page="Skills"
+                  selectedPage={selectedPage}
+                  setSelectedPage={setSelectedPage}
+                />
+              </div>
+              <div className="flex items-center">
+               
+                <Link
+                  page="Projects"
+                  selectedPage={selectedPage}
+                  setSelectedPage={setSelectedPage}
+                />
+              </div>
+              <div className="flex items-center">
+               
+                <Link
+                  page="Contact"
+                  selectedPage={selectedPage}
+                  setSelectedPage={setSelectedPage}
+                />
               </div>
             </div>
           ) : (
