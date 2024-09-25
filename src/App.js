@@ -50,7 +50,7 @@ function App() {
               isTopOfPage={isTopOfPage}
               selectedPage={selectedPage}
               setSelectedPage={setSelectedPage}
-            /><LineGradient />
+            />
             <div className="w-5/6 mx-auto md:h-full">
               {isDesktop && (
                 <DotGroup
