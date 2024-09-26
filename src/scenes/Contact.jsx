@@ -58,7 +58,7 @@ const Contact = () => {
           before:w-full before:max-w-[500px] md:before:max-w-[500px] before:h-full before:border-2 before:border-blue before:z-[-1] before:rounded-[20px]">
             <img
               src="assets/contact.png"
-              className="z-10 w-full max-w-[100px] md:max-w-[500px]"
+              className="z-10 w-full max-w-[200px] md:max-w-[500px]"
               alt="contact"
             />
           </div>
@@ -159,8 +159,8 @@ const Contact = () => {
       Click the button below to start a conversation:
     </p>
     <a
-      href="https://wa.me/20397746" // Replace with your WhatsApp link
-      className="p-5 bg-yellow font-semibold text-deep-blue hover:bg-red hover:text-white transition duration-500"
+      href="https://wa.me/20397746" 
+      className="p-5 mb-5 bg-yellow font-semibold text-deep-blue hover:bg-red hover:text-white transition duration-500"
     >
       Call me on WhatsApp
     </a>
@@ -169,8 +169,8 @@ const Contact = () => {
   {/* Right Column */}
   <div className="basis-1/2 flex justify-center ">
     <img
-      src="assets/whatsapp-img.png" // Replace with your WhatsApp icon path
-      className="w-full max-w-[150px]" // Adjust size as needed
+      src="assets/whatsapp-img.png"
+      className=" mw-full max-w-[100px] md:max-w-[200px] p-10px" 
       alt="WhatsApp"
     />
   </div>

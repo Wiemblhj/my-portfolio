@@ -11,7 +11,7 @@ const Landing = ({ setSelectedPage }) => {
        
         <section
           id="home"
-          className="md:flex md:justify-between md:items-center gap-26 md:h-full pt-20"
+          className="md:flex md:justify-between md:items-center gap-26 md:h-full pt-20 "
         >
           {/* IMAGE SECTION */}
           <div className="basis-3/5 z-10 mt-16  md:mt-32 flex justify-center md:order-2">
@@ -64,13 +64,8 @@ const Landing = ({ setSelectedPage }) => {
               }}
             >
               <p className="text-6xl font-playfair z-10 text-center md:text-start">
-              Belhaj Boubaker{" "}
-                <span
-                  className="xs:relative xs:text-deep-blue xs:font-semibold z-20 xs:before:content-brush
-                  before:absolute before:-left-[25px] before:-top-[70px] before:z-[-1]"
-                >
-                  Wiem
-                </span>
+              Wiem Belhaj Boubaker
+                
               </p>
 
               <p className="mt-10 mb-7  text-center md:text-start">
