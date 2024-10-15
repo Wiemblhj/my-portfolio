@@ -110,7 +110,7 @@ const Projects = () => {
            title="Logo for Psychotherapist Directory" 
            desc="I designed a clean logo for a psychotherapist directory website. The logo reflects trust, calm, and mental well-being through its minimalistic design and soothing color palette. It aims to resonate with both therapists and clients, creating a welcoming and approachable brand identity."
     
-           live="https://closebyyou.com/"
+        
           />
           
 
