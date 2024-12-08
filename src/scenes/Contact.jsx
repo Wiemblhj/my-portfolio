@@ -55,10 +55,10 @@ const Contact = () => {
           className="basis-1/2 flex justify-center"
         >
           <div className="relative z-0 before:absolute before:-top-10 before:-left-10
-          before:w-full before:max-w-[500px] md:before:max-w-[500px] before:h-full before:border-2 before:border-blue before:z-[-1] before:rounded-[20px]">
+          before:w-full before:max-w-[400px] md:before:max-w-[400px] before:h-full before:border-2 before:border-blue before:z-[-1] ">
             <img
-              src="assets/contact.png"
-              className="z-10 w-full max-w-[200px] md:max-w-[500px]"
+              src="assets/contact us.png"
+              className="z-10 w-full max-w-[200px] md:max-w-[400px]"
               alt="contact"
             />
           </div>
@@ -145,8 +145,7 @@ const Contact = () => {
       </div>
       
         <div className="text-center ">
-  <h2 className="font-playfair font-semibold text-4xl">
-  Or you can reach me on WhatsApp  </h2>
+
   <p className="m-4 mb-10">
     If you prefer a quick chat or need immediate assistance, feel free to reach out to me on WhatsApp! I'm always happy to help and discuss your project ideas.
   </p>
@@ -155,9 +154,7 @@ const Contact = () => {
 <div className="md:flex md:justify-center gap-10">
   {/* Left Column */}
   <div className="basis-1/2 flex flex-col justify-center items-center text-center ">
-    <p className="mb-5">
-      Click the button below to start a conversation:
-    </p>
+ 
     <a
       href="https://wa.me/20397746" 
       className="p-5 mb-5 bg-yellow font-semibold text-deep-blue hover:bg-red hover:text-white transition duration-500"

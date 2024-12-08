@@ -106,13 +106,14 @@ const Projects = () => {
                    github="https://github.com/Wiemblhj/gym-website"
                    live="https://gym-website-3d2.pages.dev/"/>
 
-          <Project 
-           title="Logo for Psychotherapist Directory" 
-           desc="I designed a clean logo for a psychotherapist directory website. The logo reflects trust, calm, and mental well-being through its minimalistic design and soothing color palette. It aims to resonate with both therapists and clients, creating a welcoming and approachable brand identity."
-    
-           live="https://closebyyou.com/"
+<Project 
+           title="Twitter Clone" 
+           desc="FullStack Twitter clone with React, Tailwind CSS, Next.JS, Prisma and MongoDB."
+           github="https://github.com/Wiemblhj/twitter-clone"
+           live="https://twitter-clone-kappa-murex.vercel.app/"
           />
           
+
 
           {/* ROW 3 */}
          

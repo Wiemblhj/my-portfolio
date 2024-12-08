@@ -63,11 +63,7 @@ const Landing = ({ setSelectedPage }) => {
                 visible: { opacity: 1, x: 0 },
               }}
             >
-              <p className="text-6xl font-playfair z-10 text-center md:text-start">
-              Wiem Belhaj Boubaker
-                
-              </p>
-
+   
               <p className="mt-10 mb-7  text-center md:text-start">
               <h1 style={{ paddingBottom: 15 }} className="text-4xl">
                 Hi There!{" "}

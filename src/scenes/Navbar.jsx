@@ -48,8 +48,9 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
         }}
       >
         <div className="flex items-center justify-between mx-auto w-5/6 h-5/6 pt-2px ">
+        
          <img  alt="logo"
-                className="z-10 w-full max-w-[40px] md:max-w-[70px] p-4 pl-0"
+                className="z-10 w-full max-w-[50px] md:max-w-[80px] p-2 pl-0"
             src="assets/wb-logo.png"/>
 
 
@@ -134,7 +135,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
             </div>
           )}
         </div>
-      </motion.div>  <LineGradient />
+      </motion.div>  
     </nav>
  
     
