@@ -101,7 +101,7 @@ const Projects = () => {
             className="flex justify-center text-center items-center p-10 bg-red
             max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
         >
-         Modern and efficient websites tailored to your needs.
+      MODERN AND EFFICIENT WEBSITES TAILORED TO YOUR NEEDS
         </div>
           <Project 
                    title="Gym Website"
@@ -131,8 +131,7 @@ const Projects = () => {
           className="flex justify-center text-center items-center p-10 bg-blue
             max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
         >
-  Logos, branding, and creative design for businesses.
-        </div>
+CUSTOM WEBSITES THAT BLEND CREATIVITY WITH FUNCTIONALITY        </div>
                 <Project 
            title="Netflix Clone" 
            desc="I created a full-stack Netflix clone, replicating the sleek and intuitive design of the popular streaming platform. The project features a polished interface with seamless navigation, built using React and TailwindCSS. "
