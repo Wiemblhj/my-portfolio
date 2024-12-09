@@ -95,10 +95,14 @@ const Projects = () => {
           whileInView="visible"
           viewport={{ once: true, amount: 0.2 }}
         >
-          {/* ROW 1 */}
-        
-          {/* ROW 2 */}
-       
+  
+         
+<div
+            className="flex justify-center text-center items-center p-10 bg-red
+            max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
+        >
+         Modern and efficient websites tailored to your needs.
+        </div>
           <Project 
                    title="Gym Website"
                    desc="I developed a fitness web application with a dynamic and modern design. The site was built using React and TailwindCSS, offering an engaging user interface with smooth transitions and animations. The design embodies energy, health, and motivation, aiming to provide an intuitive and motivating user experience for fitness enthusiasts."
@@ -106,41 +110,36 @@ const Projects = () => {
                    github="https://github.com/Wiemblhj/gym-website"
                    live="https://gym-website-3d2.pages.dev/"/>
 
+
+
+
+          
 <Project 
+                   title="Fashion Studio Website" 
+                   desc="I crafted a visually stunning landing page for a fashion studio, reflecting elegance and modernity. This project incorporates custom animations and a smooth scrolling experience to capture the essence of high-end fashion."
+                   github="https://github.com/Wiemblhj/react-studio"
+                   live="https://react-studio-blush.vercel.app/"/>
+          {/* ROW 3 */}
+         
+      
+          <Project 
            title="Twitter Clone" 
            desc="FullStack Twitter clone with React, Tailwind CSS, Next.JS, Prisma and MongoDB."
            github="https://github.com/Wiemblhj/twitter-clone"
            live="https://twitter-clone-kappa-murex.vercel.app/"
-          />
-          
-
-
-          {/* ROW 3 */}
-         
-          <div
-            className="flex justify-center text-center items-center p-10 bg-blue
-              max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
-          >
-    Logos, branding, and creative design for businesses.
-          </div>
-          <div
-            className="flex justify-center text-center items-center p-10 bg-red
-              max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
-          >
-           Modern and efficient websites tailored to your needs.
-          </div>
-          <Project 
+          />    <div
+          className="flex justify-center text-center items-center p-10 bg-blue
+            max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
+        >
+  Logos, branding, and creative design for businesses.
+        </div>
+                <Project 
            title="Netflix Clone" 
            desc="I created a full-stack Netflix clone, replicating the sleek and intuitive design of the popular streaming platform. The project features a polished interface with seamless navigation, built using React and TailwindCSS. "
            github="https://github.com/Wiemblhj/netflix-clone"
            live="https://netflix-clone-drab-rho.vercel.app/"
           />
-          
-          <Project 
-                   title="Fashion Studio Website" 
-                   desc="I crafted a visually stunning landing page for a fashion studio, reflecting elegance and modernity. This project incorporates custom animations and a smooth scrolling experience to capture the essence of high-end fashion."
-                   github="https://github.com/Wiemblhj/react-studio"
-                   live="https://react-studio-blush.vercel.app/"/>
+    
 
         </motion.div>
       </div>

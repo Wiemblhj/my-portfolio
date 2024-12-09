@@ -129,7 +129,7 @@ const Footer1 = ( {width, height} ) => {
       <LogoContainer>
       <img  alt="logo"
                 className="  mw-full max-w-[500px] md:max-w-[200px]"
-            src="assets/wb-logo.png"/>
+            src="assets/logo wb.png"/>
         <h3 data-scroll data-scroll-speed="-1">
           Wiem Belhaj Boubaker
         </h3>

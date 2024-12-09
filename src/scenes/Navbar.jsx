@@ -51,7 +51,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
         
          <img  alt="logo"
                 className="z-10 w-full max-w-[50px] md:max-w-[80px] p-2 pl-0"
-            src="assets/wb-logo.png"/>
+            src="assets/logo wb.png"/>
 
 
           {/* DESKTOP NAV */}
